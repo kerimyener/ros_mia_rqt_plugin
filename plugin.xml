@@ -1,0 +1,12 @@
+<library path="lib/libros_mia_rqt_plugin">
+  <class name="ros_mia_rqt_plugin/MiaPlugin" type="ros_mia_rqt_plugin::MiaPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      ROS Mia driver plugin
+    </description>
+    <qtgui>
+      <label>MIA Status/Control</label>
+      <!--icon type="theme">system-help</icon>
+      <statustip>""</statustip-->
+    </qtgui>
+  </class>
+</library>
